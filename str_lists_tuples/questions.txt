@@ -1,0 +1,123 @@
+--------------------------------------------------------------------------------------------------------------------------------
+***** LIST, STRING, TUPLE, DICTIONARY*****
+--------------------------------------------------------------------------------------------------------------------------------
+
+1. Count Elements
+Problem:
+Given a list of integers, return a dictionary with each number and its count.
+Input:
+[1, 2, 2, 3, 3, 3]
+Output:
+{1: 1, 2: 2, 3: 3}
+
+2. Dictionary Key Check
+Problem:
+Given a dictionary and a key, return "Found" if the key exists, otherwise return "Not Found".
+Input:
+{"a": 1, "b": 2}, key = "b"
+Output:
+"Found"
+
+3. Tuple to Dictionary
+Problem:
+Given a tuple of (key, value) pairs, convert it into a dictionary.
+Input:
+(("a", 1), ("b", 2))
+Output:
+{"a": 1, "b": 2}
+
+4. Reverse Words
+Problem:
+Given a string, return a list of words in reverse order.
+Input:
+"data science is fun"
+Output:
+["fun", "is", "science", "data"]
+
+5. Sum of Tuples
+Problem:
+Given a list of tuples containing two integers each, return a list of their sums.
+Input:
+[(1, 2), (3, 4), (5, 6)]
+Output:
+[3, 7, 11]
+
+6. String Length Map
+Problem:
+Given a list of strings, return a dictionary with each string and its length.
+Input:
+["python", "ml", "ai"]
+Output:
+{"python": 6, "ml": 2, "ai": 2}
+
+7. Unique Characters
+Problem:
+Given a string, return a tuple of unique characters in the order they appear.
+Input:
+"programming"
+Output:
+("p", "r", "o", "g", "a", "m", "i", "n")
+
+8. Filter Even Numbers
+Problem:
+Given a list of numbers, return a new list containing only even numbers.
+Input:
+[1, 2, 3, 4, 5, 6]
+Output:
+[2, 4, 6]
+
+9. Student Average Score
+Problem:
+You are given a list of tuples where each tuple contains a student name and a list of marks. Return a dictionary mapping each student’s name (lowercase) to their average score.
+Input:
+[("Alice", [80, 90]), ("Bob", [70, 85, 90])]
+Output:
+{"alice": 85.0, "bob": 81.67}
+
+10. Word Frequency Counter
+Problem:
+Given a string sentence, return a dictionary containing the frequency of each word, ignoring case and punctuation.
+Input:
+"Python is great and Python is easy"
+Output:
+{"python": 2, "is": 2, "great": 1, "and": 1, "easy": 1}
+
+11. Highest Selling Product
+Problem:
+You are given a list of tuples where each tuple represents (product_name, quantity_sold). Return the product name with the highest total sales.
+Input:
+[("Pen", 10), ("Pencil", 25), ("Pen", 15)]
+Output:
+"Pen"
+
+12. Unique Values Extractor
+Problem:
+Given a dictionary where keys are strings and values are lists of integers, return a sorted list of all unique integers across all lists.
+Input:
+{"a": [1, 2, 3], "b": [3, 4], "c": [2, 5]}
+Output:
+[1, 2, 3, 4, 5]
+
+13. Attendance Percentage
+Problem:
+Given a dictionary mapping employee names to a list of attendance strings ("P" or "A"), return a dictionary of employee names and their attendance percentage.
+Input:
+{"Ravi": ["P","P","A"], "Neha": ["P","P","P"]}
+Output:
+{"Ravi": 66.67, "Neha": 100.0}
+
+14. Character Index Map
+Problem:
+Given a string, return a dictionary mapping each character to a tuple of all its indices.
+Input:
+"banana"
+Output:
+{"b": (0,), "a": (1,3,5), "n": (2,4)}
+
+15. Dictionary Value Merger
+Problem:
+Given a list of dictionaries with integer values, merge them into a single dictionary by summing values of common keys.
+Input:
+[{"a": 2, "b": 3}, {"a": 4, "c": 1}]
+Output:
+{"a": 6, "b": 3, "c": 1}
